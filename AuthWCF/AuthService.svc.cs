@@ -11,7 +11,7 @@ using System.Text;
 
 namespace AuthWCF
 {
-    public class Service1 : AuthService
+    public class Service1 : IAuthService
     {
         public BaseResponse CheckLogin(BaseRequest request)
         {

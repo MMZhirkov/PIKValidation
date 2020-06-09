@@ -1,5 +1,5 @@
-﻿using System.Web.Mvc;
-using WebValidation.AuthService;
+﻿using System.ServiceModel;
+using System.Web.Mvc;
 
 namespace WebValidation.Controllers
 {
@@ -8,10 +8,29 @@ namespace WebValidation.Controllers
     {
         public ActionResult Index()
         {
-            using (var authClient = new AuthService.AuthServiceClient())
-            {
-                var res = authClient.CheckLogin(new BaseRequest() { Login = "pikuser" });
-            }
+            //try
+            //{
+            //    //var authClient = new ServiceReference1.AuthServiceClient();
+            //    //var res = authClient.CheckLogin(new BaseRequest() { Login = "pikuser" });
+            //    using (var authClient = new ServiceReference1.AuthServiceClient())
+            //    {
+            //        authClient.Open();
+            //        if (authClient.State == CommunicationState.Faulted)
+            //        {
+            //            authClient.Abort();
+             
+            //        }
+
+
+            //        var res = authClient.CheckLogin(new BaseRequest() { Login = "pikuser" });
+            //    }
+            //}
+            //catch (System.Exception ex)
+            //{
+
+            //    throw;
+            //}
+           
 
             return View();
         }

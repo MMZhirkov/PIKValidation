@@ -78,7 +78,7 @@
     <Compile Include="AuthService.svc.cs">
       <DependentUpon>AuthService.svc</DependentUpon>
     </Compile>
-    <Compile Include="AuthService.cs" />
+    <Compile Include="IAuthService.cs" />
     <Compile Include="BaseOperation\BaseRequest.cs" />
     <Compile Include="BaseOperation\BaseResponse.cs" />
     <Compile Include="Context\UserContext.cs" />

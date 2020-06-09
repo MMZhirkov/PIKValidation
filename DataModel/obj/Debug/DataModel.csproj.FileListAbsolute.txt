@@ -1,5 +1,0 @@
-E:\Trading\PIKValidation\DataModel\bin\Debug\DataModel.dll
-E:\Trading\PIKValidation\DataModel\bin\Debug\DataModel.pdb
-E:\Trading\PIKValidation\DataModel\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
-E:\Trading\PIKValidation\DataModel\obj\Debug\DataModel.dll
-E:\Trading\PIKValidation\DataModel\obj\Debug\DataModel.pdb
