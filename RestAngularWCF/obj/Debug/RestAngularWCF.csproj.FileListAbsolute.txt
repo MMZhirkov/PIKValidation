@@ -1,0 +1,11 @@
+E:\Trading\PIKValidation\RestAngularWCF\bin\RestAngularWCF.dll.config
+E:\Trading\PIKValidation\RestAngularWCF\bin\RestAngularWCF.dll
+E:\Trading\PIKValidation\RestAngularWCF\bin\RestAngularWCF.pdb
+E:\Trading\PIKValidation\RestAngularWCF\bin\EntityFramework.dll
+E:\Trading\PIKValidation\RestAngularWCF\bin\EntityFramework.SqlServer.dll
+E:\Trading\PIKValidation\RestAngularWCF\bin\EntityFramework.xml
+E:\Trading\PIKValidation\RestAngularWCF\bin\EntityFramework.SqlServer.xml
+E:\Trading\PIKValidation\RestAngularWCF\obj\Debug\RestAngularWCF.csproj.CoreCompileInputs.cache
+E:\Trading\PIKValidation\RestAngularWCF\obj\Debug\RestAngularWCF.csproj.CopyComplete
+E:\Trading\PIKValidation\RestAngularWCF\obj\Debug\RestAngularWCF.dll
+E:\Trading\PIKValidation\RestAngularWCF\obj\Debug\RestAngularWCF.pdb
