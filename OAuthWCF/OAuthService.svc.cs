@@ -1,8 +1,10 @@
-﻿using OAuthWCF.BaseOperation;
+﻿using OAuthWCF.Assets;
+using OAuthWCF.BaseOperation;
 using OAuthWCF.Context;
 using System;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 
 namespace OAuthWCF
 {
@@ -12,11 +14,11 @@ namespace OAuthWCF
         {
             try
             {
-                //Log.GetLogger().Info($"Запущен метод {MethodBase.GetCurrentMethod().Name}");
+                Log.GetLogger().Info($"Запущен метод {MethodBase.GetCurrentMethod().Name}, login = {login}");
 
                 if (string.IsNullOrEmpty(login))
                 {
-                    //Log.GetLogger().Info($"Метод {MethodBase.GetCurrentMethod().Name} успешно отработал");
+                    Log.GetLogger().Info($"Метод {MethodBase.GetCurrentMethod().Name} успешно отработал");
                     return new BaseResponse("Передан пустой логин");
                 }
 
@@ -28,21 +30,21 @@ namespace OAuthWCF
 
                 if (hasRegistrationUser)
                 {
-                    //Log.GetLogger().Info($"Метод {MethodBase.GetCurrentMethod().Name} успешно отработал");
+                    Log.GetLogger().Info($"Метод {MethodBase.GetCurrentMethod().Name} успешно отработал, login = {login} найден в бд");
                     return new BaseResponse();
                 }
 
-                //Log.GetLogger().Info($"Метод {MethodBase.GetCurrentMethod().Name} успешно отработал");
+                Log.GetLogger().Info($"Метод {MethodBase.GetCurrentMethod().Name} успешно отработал, login = {login} не найден в бд");
                 return new BaseResponse("Ошибка. Не найден логин");
             }
             catch (ApplicationException ex)
             {
-                //Log.GetLogger().Error($"Произошла ошибка в {MethodBase.GetCurrentMethod().Name}", ex);
+                Log.GetLogger().Error($"Произошла ошибка в {MethodBase.GetCurrentMethod().Name}", ex);
                 return new BaseResponse(ex.Message);
             }
             catch (Exception ex)
             {
-                //Log.GetLogger().Error($"Произошла непредвиденная ошибка в {MethodBase.GetCurrentMethod().Name}", ex);
+                Log.GetLogger().Error($"Произошла непредвиденная ошибка в {MethodBase.GetCurrentMethod().Name}", ex);
                 return new BaseResponse(ex.Message);
             }
         }

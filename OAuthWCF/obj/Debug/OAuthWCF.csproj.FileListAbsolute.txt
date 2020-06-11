@@ -12,3 +12,4 @@ E:\Trading\PIKValidation\OAuthWCF\obj\Debug\OAuthWCF.csproj.CoreCompileInputs.ca
 E:\Trading\PIKValidation\OAuthWCF\obj\Debug\OAuthWCF.csproj.CopyComplete
 E:\Trading\PIKValidation\OAuthWCF\obj\Debug\OAuthWCF.dll
 E:\Trading\PIKValidation\OAuthWCF\obj\Debug\OAuthWCF.pdb
+E:\Trading\PIKValidation\OAuthWCF\bin\log4net.dll
