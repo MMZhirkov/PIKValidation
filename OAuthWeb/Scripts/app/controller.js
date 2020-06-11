@@ -43,6 +43,7 @@ app.controller("CRUD_AngularJs_RESTController", function ($scope, CRUD_AngularJs
             //Edit the record      
             debugger;
             Book.BookId = $scope.BookId;
+
             var promisePut = CRUD_AngularJs_RESTService.put($scope.BookId, Book);
             promisePut.then(function (pl) {
                 $scope.Message = "Book Updated Successfuly";

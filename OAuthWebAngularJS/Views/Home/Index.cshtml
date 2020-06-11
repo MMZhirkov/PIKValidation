@@ -1,0 +1,48 @@
+﻿<html data-ng-app="RESTClientModule">
+@{
+    ViewBag.Title = "PIKValidation";
+}
+
+<body>
+    <div class="container-main">
+        <div class="container" ng-controller="FormController">
+            <div class="row">
+                <div class="col-md-12">
+                    <form class="form-horizontal" name="AuthForm" novalidate>
+                        <div class="form-group" ng-class="{'has-error': AuthForm.Login.$dirty && (AuthForm.Login.$error.required || AuthForm.Login.$invalid)}">
+                            <div class="col-sm-8 col-sm-offset-3">
+                                <input type="text" required ng-pattern="/^[a-zA-Z0-9]+$/" name="Login" ng-model="answer.Login" class="form-control InputField-field" id="aLogin" placeholder="Логин">
+                                <span class="error" ng-show="AuthForm.Login.$touched && AuthForm.Login.$error.required">Поле обязательно для заполнения</span>
+                                <span class="error" ng-show="AuthForm.Login.$touched && AuthForm.Login.$invalid && !AuthForm.Login.$error.required">Просьба указать логин латинскими буквами</span>
+                            </div>
+                        </div>
+                        <div class="form-group" ng-class="{'has-error': AuthForm.Name.$dirty && (AuthForm.Name.$error.required || AuthForm.Name.$invalid)}">
+                            <div class="col-sm-8 col-sm-offset-3">
+                                <input type="text" required ng-pattern="/^([А-Я])([а-яА-Я]+$)/" name="Name" ng-model="answer.Name" class="form-control InputField-field" id="aName" placeholder="Имя">
+                                <span class="error" ng-show="AuthForm.Name.$touched && AuthForm.Name.$error.required ">Поле обязательно для заполнения</span>
+                                <span class="error" ng-show="AuthForm.Name.$touched && AuthForm.Name.$invalid && !AuthForm.Name.$error.required">Просьба указать ваше имя на русском языке с заглавной буквы</span>
+                            </div>
+                        </div>
+                        <div class="form-group" ng-class="{'has-error': AuthForm.LastName.$dirty && (AuthForm.LastName.$error.required || AuthForm.LastName.$invalid)}">
+                            <div class="col-sm-8 col-sm-offset-3">
+                                <input type="text" required ng-pattern="/^([А-Я])([а-яА-Я]+$)/" name="LastName" ng-model="answer.LastName" class="form-control InputField-field" id="aLastName" placeholder="Фамилия">
+                                <span class="error" ng-show="AuthForm.LastName.$touched && AuthForm.LastName.$error.required">Поле обязательно для заполнения</span>
+                                <span class="error" ng-show="AuthForm.LastName.$touched &&  AuthForm.LastName.$invalid && !AuthForm.LastName.$error.required">Просьба указать вашу фамилию на русском языке с заглавной буквы</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-8 col-sm-offset-4">
+                                <button ng-disabled="AuthForm.$invalid" ng-click="checkLogin(answer.Login)" class="btn btn-default">Отправить</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/app/module.js"></script>
+<script src="~/Scripts/app/service.js"></script>
+<script src="~/Scripts/app/FormController.js"></script>

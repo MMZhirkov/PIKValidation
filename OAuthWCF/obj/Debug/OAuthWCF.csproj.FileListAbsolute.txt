@@ -1,0 +1,14 @@
+E:\Trading\PIKValidation\OAuthWCF\bin\OAuthWCF.dll.config
+E:\Trading\PIKValidation\OAuthWCF\bin\OAuthWCF.dll
+E:\Trading\PIKValidation\OAuthWCF\bin\OAuthWCF.pdb
+E:\Trading\PIKValidation\OAuthWCF\bin\DataModel.dll
+E:\Trading\PIKValidation\OAuthWCF\bin\EntityFramework.dll
+E:\Trading\PIKValidation\OAuthWCF\bin\EntityFramework.SqlServer.dll
+E:\Trading\PIKValidation\OAuthWCF\bin\DataModel.pdb
+E:\Trading\PIKValidation\OAuthWCF\bin\EntityFramework.xml
+E:\Trading\PIKValidation\OAuthWCF\bin\EntityFramework.SqlServer.xml
+E:\Trading\PIKValidation\OAuthWCF\obj\Debug\OAuthWCF.csprojAssemblyReference.cache
+E:\Trading\PIKValidation\OAuthWCF\obj\Debug\OAuthWCF.csproj.CoreCompileInputs.cache
+E:\Trading\PIKValidation\OAuthWCF\obj\Debug\OAuthWCF.csproj.CopyComplete
+E:\Trading\PIKValidation\OAuthWCF\obj\Debug\OAuthWCF.dll
+E:\Trading\PIKValidation\OAuthWCF\obj\Debug\OAuthWCF.pdb
