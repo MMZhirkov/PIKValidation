@@ -5,7 +5,7 @@ using System.Data.Entity;
 
 namespace OAuthWebAngularJS.DAL
 {
-    public class UserInitializer : CreateDatabaseIfNotExists<UserContext>
+    public class UserInitializer : DropCreateDatabaseAlways<UserContext>
     {
         protected override void Seed(UserContext context)
         {

@@ -5,7 +5,7 @@ namespace OAuthWebAngularJS.DAL
 {
     public class UserContext : DbContext
     {
-        public UserContext() : base("DefaultConnection")
+        public UserContext() : base("Users")
         {
         }
 

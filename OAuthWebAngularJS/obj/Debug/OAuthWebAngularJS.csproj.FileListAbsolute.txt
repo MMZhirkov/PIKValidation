@@ -78,8 +78,8 @@ E:\Trading\PIKValidation\OAuthWebAngularJS\bin\System.Web.WebPages.Razor.xml
 E:\Trading\PIKValidation\OAuthWebAngularJS\bin\Newtonsoft.Json.xml
 E:\Trading\PIKValidation\OAuthWebAngularJS\bin\Antlr3.Runtime.pdb
 E:\Trading\PIKValidation\OAuthWebAngularJS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\Trading\PIKValidation\OAuthWebAngularJS\obj\Debug\OAuthWebAngularJS.csprojAssemblyReference.cache
 E:\Trading\PIKValidation\OAuthWebAngularJS\obj\Debug\OAuthWebAngularJS.csproj.CoreCompileInputs.cache
 E:\Trading\PIKValidation\OAuthWebAngularJS\obj\Debug\OAuthWebAngularJS.csproj.CopyComplete
 E:\Trading\PIKValidation\OAuthWebAngularJS\obj\Debug\OAuthWebAngularJS.dll
 E:\Trading\PIKValidation\OAuthWebAngularJS\obj\Debug\OAuthWebAngularJS.pdb
+E:\Trading\PIKValidation\OAuthWebAngularJS\obj\Debug\OAuthWebAngularJS.csprojAssemblyReference.cache
